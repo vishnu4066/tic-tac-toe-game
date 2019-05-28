@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.image{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.gif1{
+	position: relative;
+	height: 10%;
+	width: 8%;
+	left: 40%;
+	top: 100px;
+}
+
+h1{
+	position: relative;
+	font-family: Lobster;
+	font-size:50px;
+	color: #000; 
+	background-color: #ADBCFD
+}
+.board{
+	position: absolute;
+	top:25%;
+	left: 40%;
+	width:350px;
+}
+.col-holder{
+	display: inline-flex;
+}
+.player-box{
+	padding: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 70px;
+
+	background-color: #ADBCFD;
+	border: 1px solid black;
+	color: #fff;
+	font-family: Comic Sans MS;
+	font-size:80px; 
+}
+.reset-btn{
+	position: absolute;
+	left: 45%;
+	top: 90%;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	width: 200px;
+
+}
